@@ -250,12 +250,12 @@ body {
   height: 80vh;
   display: flex;
   align-items: center;
-  margin: 4% 0;
+  margin: 6% 0;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 500px) {
   .about-us {
-    margin: 3% 0;
+    height: 100vh;
   }
 }
 
