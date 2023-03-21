@@ -92,13 +92,6 @@ body {
   }
 }
 
-@media (max-width: 800rem) {
-  .header-banner {
-    position: relative;
-    top: 32%;
-  }
-}
-
 .main-heading {
   font-family: var(--font-dancingScript);
   font-size: 10rem;
@@ -229,7 +222,7 @@ body {
   height: 3rem;
   position: fixed;
   top: 5%;
-  right: 6%;
+  right: 8%;
   z-index: 300;
 }
 
@@ -263,24 +256,6 @@ body {
 @media (max-width: 1200px) {
   .about-us {
     margin: 3% 0;
-  }
-}
-
-@media (max-width: 1000px) {
-  .about-us {
-    margin: 2% 0;
-  }
-}
-
-@media (max-width: 800px) {
-  .about-us {
-    margin: 2% 0;
-  }
-}
-
-@media (max-width: 700px) {
-  .about-us {
-    margin: 1.5% 0;
   }
 }
 
