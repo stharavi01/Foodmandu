@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Josefin+Sans:300,400,600,700|Nunito:300,400,600,700"
+      rel="stylesheet"
+    />
+    <title>Website for Foodmandu</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar">
+      <input type="checkbox" id="check" class="checkbox" hidden />
+      <div class="hamburger-menu">
+        <label for="check" class="menu">
+          <div class="menu-line menu-line-1"></div>
+          <div class="menu-line menu-line-2"></div>
+          <div class="menu-line menu-line-3"></div>
+        </label>
+      </div>
+
+      <div class="navbar-navigation">
+        <div class="navbar-navigation-left">
+          <img src="images/nav-img-1.jpeg" class="left-img left-img-1" />
+          <img src="images/nav-img-2.jpeg" class="left-img left-img-2" />
+          <img src="images/nav-img-3.jpeg" class="left-img left-img-3" />
+        </div>
+
+        <div class="navbar-navigation-right">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">About Us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">Gallery</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">Reservation</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">Services</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End of Navbar-->
+
+    <header class="header">
+      <div class="brand">
+        <img class="logo" src="./images/logo.png" alt="foodmandu_logo" />
+        <h1 class="main-name">Foodmandu</h1>
+      </div>
+
+      <div class="header-banner">
+        <h1 class="main-heading">Welcome</h1>
+        <h3 class="sub-heading bright">
+          Order food from the widest range of Restaurants
+        </h3>
+        <button type="button" class="main-btn">Reservation</button>
+      </div>
+    </header>
+
+    <!--About Us-->
+    <section class="about-us">
+      <div class="about-us-left">
+        <h1 class="main-heading">Why us?</h1>
+        <h3 class="sub-heading dark">Serving you great time</h3>
+        <p class="description mb-sm">
+          Foodmandu is the fastest, easiest and most convenient way to enjoy the
+          best food of your favourite restaurants at home, at the office or
+          wherever you want to.
+        </p>
+
+        <p class="description mb-xlg">
+          We know that your time is valuable and sometimes every minute in the
+          day counts. That’s why we deliver! So you can spend more time doing
+          the things you love.
+        </p>
+
+        <button type="button" class="main-btn">Read More</button>
+      </div>
+      <div class="about-us-right">
+        <img class="about-us-img" src="./images/cooking.jpg" />
+      </div>
+    </section>
+    <!--End of About Us-->
+
+    <!-- Featured Dishes -->
+
+    <section class="gallery">
+      <div class="gallery-heading">Featured Dishes</div>
+
+      <div class="cards-wrapper">
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Hamburger</h1>
+            <p class="card-overlay-paragraph">Price: Rs600</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/burger.jpg" class="card-img" />
+        </div>
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Meat Skewers</h1>
+            <p class="card-overlay-paragraph">Price: Rs300</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/meat-skewer.jpg" class="card-img" />
+        </div>
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Asparagus</h1>
+            <p class="card-overlay-paragraph">Price: Rs900</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/meal-1307604_1920.jpg" class="card-img" />
+        </div>
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Fried Chicken</h1>
+            <p class="card-overlay-paragraph">Price: Rs1000</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/food-3271156_1920.jpg" class="card-img" />
+        </div>
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Pizza</h1>
+            <p class="card-overlay-paragraph">Price: Rs600</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/pizza.jpg" class="card-img" />
+        </div>
+        <div class="card">
+          <div class="card-overlay">
+            <h1 class="card-overlay-heading">Steak</h1>
+            <p class="card-overlay-paragraph">Price: Rs1200</p>
+            <button type="button" class="card-overlay-btn">Order Now</button>
+          </div>
+          <img src="./images/meat-1155132_1920.jpg" class="card-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+      <h1 class="benefits-heading mb-md">Our benefits</h1>
+      <div class="benefits-content">
+        <div class="item-1 items">
+          <i class="ion-ios-infinite"></i>
+          <h3 class="sub-heading">Never cook again!</h3>
+          <p class="benefits-description">
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div class="item-2 items">
+          <i class="ion-ios-nutrition"></i>
+          <h3 class="sub-heading">Local and organic</h3>
+          <p class="benefits-description">
+            Our cooks only use local, fresh, and organic products to prepare
+            your meals.
+          </p>
+        </div>
+        <div class="item-3 items">
+          <i class="ion-leaf"></i>
+          <h3 class="sub-heading">No waste</h3>
+          <p class="benefits-description">
+            All our partners only use reusable containers to package all your
+            meals.
+          </p>
+        </div>
+        <div class="item-4 items">
+          <i class="ion-pause"></i>
+          <h3 class="sub-heading">Pause anytime</h3>
+          <p class="benefits-description">
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="contact">
+      <div class="contact-left mb-md">
+        <h2 class="mb-lg">Get your first meal for free!</h2>
+        <p class="mb-lg">
+          Healthy, tasty and hassle-free meals are waiting for you. Start eating
+          well today. You can cancel or pause anytime. And the first meal is on
+          us!
+        </p>
+        <form class="cta-form" action="#">
+          <div>
+            <label for="full-name">Full Name</label><br />
+            <input
+              id="full-name"
+              type="text"
+              placeholder="Saroj Shrestha"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email address</label><br />
+            <input
+              id="email"
+              type="email"
+              placeholder="sanayashe@gmail.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="select-where">Where did you hear from us?</label><br />
+            <select id="select-where" required>
+              <option value="">Please choose one option:</option>
+              <option value="friends">Friends and family</option>
+              <option value="youtube">YouTube video</option>
+              <option value="podcast">Podcast</option>
+              <option value="ad">Facebook ad</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+          <button class="main-btn contact-btn">Sign up</button>
+        </form>
+      </div>
+      <div class="contact-right"></div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="main-footer">
+        <div class="content footer-text">
+          <h3>WE'RE FOODMANDU</h3>
+          <p>About Us</p>
+          <p>Available Areas</p>
+          <p>Delivery Charges</p>
+          <p>Blog</p>
+        </div>
+        <div class="get_help footer-text">
+          <h3>GET HELP</h3>
+          <p>How to Order?</p>
+          <p>FAQs</p>
+          <p>Contact Us</p>
+        </div>
+        <div class="call_us footer-text">
+          <h3>CALL US</h3>
+          <p>Kathmandu: 4444177, 4440979,</p>
+          <p>9802034008</p>
+          <h3>CALL US</h3>
+          <p>Pokhara: 9802859990, 9802853330</p>
+        </div>
+        <div class="socials">
+          <h3 class="app_download">DOWNLOAD APP</h3>
+          <img class="app_store mb-sm" src="./images/app.png" alt="app_store" />
+          <h3 class="mb-sm">CONNTECT WITH US</h3>
+          <div class="socials_icons">
+            <a class="icons" href="#"><i class="ion-social-facebook"></i></a>
+            <a href="#"> <i class="ion-social-twitter"></i></a>
+            <a href="#"><i class="ion-social-instagram"></i></a>
+            <a href="#"> <i class="ion-social-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_service">
+        <p class="mb-lg">Service Hour <span>8:00 AM to 9:00 PM(NST)</span></p>
+        <div class="terms_usage">
+          <p>Terms of Usage | Privacy Policy</p>
+          <p>&copy; 2020 Foodmandu Pvt. Ltd. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
