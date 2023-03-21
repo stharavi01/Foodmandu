@@ -37,7 +37,13 @@ bp-medium: 50em; //800px screensize */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 html {
@@ -46,13 +52,12 @@ html {
 }
 body {
   background: #fff;
-  overflow-x: hidden;
 }
 
 /* header section */
 
 .header {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
     url(./images/main-image.jpg) center no-repeat;
@@ -83,13 +88,6 @@ body {
 .header-banner {
   position: relative;
   top: 25%;
-}
-
-@media (max-width: 1200px) {
-  .header-banner {
-    position: relative;
-    top: 28%;
-  }
 }
 
 .main-heading {
@@ -221,9 +219,18 @@ body {
   width: 3em;
   height: 3rem;
   position: fixed;
-  top: 5%;
-  right: 8%;
+  top: 4.5%;
+  right: 4%;
   z-index: 300;
+}
+
+@media (max-width: 700px) {
+  .hamburger-menu {
+    position: fixed;
+    top: 4.5%;
+    right: 10%;
+    z-index: 300;
+  }
 }
 
 .menu {
@@ -250,7 +257,7 @@ body {
   height: 80vh;
   display: flex;
   align-items: center;
-  margin: 6% 0;
+  margin: 8% 0;
 }
 
 @media (max-width: 500px) {
@@ -427,10 +434,22 @@ body {
   font-size: 3rem;
 }
 
+@media (max-width: 700px) {
+  .card-overlay-heading {
+    font-size: 2rem;
+  }
+}
+
 .card-overlay-paragraph {
   font-family: var(--font-josefinSans);
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .card-overlay-paragraph {
+    font-size: 1rem;
+  }
 }
 
 .card-overlay-btn {
@@ -447,6 +466,14 @@ body {
   border-radius: 3rem;
   outline: none;
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .card-overlay-btn {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
 }
 
 .card-overlay-btn:hover {
@@ -547,7 +574,7 @@ body {
 
 @media (max-width: 1000px) {
   .contact {
-    width: 94vw;
+    width: 88vw;
   }
 }
 
@@ -559,18 +586,6 @@ body {
 @media (max-width: 1600px) {
   .contact-left {
     padding: 2% 3.5%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .contact-left {
-    padding: 2.2% 2.5%;
-  }
-}
-
-@media (max-width: 800px) {
-  .contact-left {
-    padding: 2.2% 3%;
   }
 }
 
@@ -779,7 +794,7 @@ footer {
 
 @media (max-width: 1000px) {
   footer {
-    margin: 4% 4%;
+    margin: 4% 6%;
   }
 }
 
