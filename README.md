@@ -15,7 +15,8 @@ mission and initiatives.
 
 ### Demo Screeshots
 
-![Foodmandu Desktop Demo](./images/foodmandu.png "https://foodmandunepal.netlify.app/")
+[Foodmandu Desktop Demo](https://foodmandunepal.netlify.app/) ![Foodmandu Desktop Demo]
+(./images/foodmandu.png "Desktop Demo")
 
 ### Contact
 
