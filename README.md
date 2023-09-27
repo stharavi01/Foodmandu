@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/logo.png" style="width: 40px;" />
+<img src="./images/logo.png" style="width: 240px;" />
 
   <h2 align="center">Foodmandu -Food Ordering Website </h2>
 
