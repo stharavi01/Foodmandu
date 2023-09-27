@@ -7,7 +7,7 @@ Foodmandu is a culinary haven, a digital gateway to a world of flavors and gastr
 interactive content, and showcases the organization's
 mission and initiatives.
 
-<a href="https://foodmandunepal.netlify.app//"><strong>➥ Live Demo</strong></a>
+<a href="https://foodmandunepal.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -15,8 +15,7 @@ mission and initiatives.
 
 ### Demo Screeshots
 
-![Foodmandu Desktop Demo] <a href="https://foodmandunepal.netlify.app//">
-(./images/foodmandu.png "Desktop Demo") </a>
+![Foodmandu Desktop Demo](./images/foodmandu.png "https://foodmandunepal.netlify.app/")
 
 ### Contact
 
